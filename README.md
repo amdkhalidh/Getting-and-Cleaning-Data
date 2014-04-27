@@ -1,6 +1,6 @@
 ##Getting-and-Cleaning-Data
 ===========================
-Raw Data
+###Raw Data
 ===========================
 
 Data collected from the accelerometers from the Samsung Galaxy S smartphone
