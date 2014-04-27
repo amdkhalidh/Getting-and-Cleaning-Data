@@ -79,5 +79,5 @@ Tidydata<-dcast(melted_data, SubjectID + ActivityID ~ variable, mean)				## cast
 
 ## ----------------------------------------------------- OUTPUT --------------------------------------------------------------------------------- ##
 
-write.table(Tidydata,"C:/Users/khalidm/Documents/UCI HAR Dataset/tidydata.txt")	## tidy data will be generated in the specified path
+write.table(Tidydata,"C:/Users/khalidm/Documents/UCI HAR Dataset/tidydata.txt",row.names = F)	## tidy data will be generated in the specified path
 
